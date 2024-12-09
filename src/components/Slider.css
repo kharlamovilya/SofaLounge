@@ -1,0 +1,16 @@
+.carousel-inner img {
+    width: 100%;
+    height: auto; /* Keeps the aspect ratio */
+    object-fit: cover;
+}
+.carousel-caption {
+    background-color: rgba(0, 123, 255, 0.7);
+    padding: 15px;
+    border-radius: 10px;
+}
+.carousel-indicators [data-bs-target] {
+    background-color: #007bff;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    filter: invert(29%) sepia(98%) saturate(749%) hue-rotate(180deg) brightness(87%) contrast(92%);
+}
